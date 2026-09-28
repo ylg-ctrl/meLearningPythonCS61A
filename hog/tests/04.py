@@ -7,61 +7,55 @@ test = {
         {
           'code': r"""
           >>> num_factors(1)
-          43d176e102c8d95338faf8791aa509b3
-          # locked
+          1
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
           'code': r"""
           >>> num_factors(2)
-          46caef5ffd6d72c8757279cbcf01b12f
-          # locked
+          2
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
           'code': r"""
           >>> num_factors(3)
-          46caef5ffd6d72c8757279cbcf01b12f
-          # locked
+          2
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
           'code': r"""
           >>> num_factors(9)
-          16e2cf37e8254529473d9e0a36b75fcb
-          # locked
+          3
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
           'code': r"""
           >>> num_factors(28)
-          327b19ffebddf93982e1ad2a4a6486f4
-          # locked
+          6
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
           'code': r"""
           >>> num_factors(64)
-          c42887e7b9ffe8fc26bb57b61329f916
-          # locked
+          7
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {

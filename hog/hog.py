@@ -98,7 +98,17 @@ def is_prime(n):
 def num_factors(n):
     """Return the number of factors of N, including 1 and N itself."""
     # BEGIN PROBLEM 4
-    "*** YOUR CODE HERE ***"
+    number=0
+    i=1
+
+    while i*i<=n:
+        if n%i==0:
+            if i!=n//i:
+                number+=2
+            elif i==n//i:
+                number+=1
+        i+=1
+    return number
     # END PROBLEM 4
 
 def sus_points(score):
